@@ -65,13 +65,13 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "medium"
     url = "https://medium.com/@stepanpelc"
 
-  [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/stepan.pelc"
-
-  [[params.social]]
-    name = "pinterest"
-    url = "https://pinterest.com/stepanpelc"
+#  [[params.social]]
+#    name = "instagram"
+#    url = "https://instagram.com/stepan.pelc"
+#
+#  [[params.social]]
+#    name = "pinterest"
+#    url = "https://pinterest.com/stepanpelc"
 
   [[params.social]]
     name = "linkedin"
