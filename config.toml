@@ -104,7 +104,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 
   [[menu.main]]
-    name = "work"
+    name = "cloud native"
     url = "cloud-native/"
     identifier = "work"
     weight = 10
@@ -123,11 +123,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 
 
-  [[menu.main]]
-    name = "life"
-    identifier = "life"
-    url = "art/"
-    weight = 15
+#  [[menu.main]]
+#    name = "life"
+#    identifier = "life"
+#    url = "art/"
+#    weight = 15
 
 # [[menu.main]]
 #     name = "arch"
