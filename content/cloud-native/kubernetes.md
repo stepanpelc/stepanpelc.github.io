@@ -18,7 +18,7 @@ kubectl get deployment -n speed-ci-02-app | grep -v NAME | awk '{print $1}' | xa
 
 ## Pod anti-affinity
 
-Pod has to be deployed on server
+Pod has to be deployed on all nodes
 
 ```yaml
         podAntiAffinity:
@@ -33,4 +33,22 @@ Pod has to be deployed on server
             - kube-system
 ```
 
+## Pod on all servers
+
+Configuration for ignoring master taint
+
+
+```yaml
+apiVersion: extensions/v1beta1
+kind: Deployment
+...
+  spec:
+...
+    spec:
+...
+      tolerations:
+        - key: "node-role.kubernetes.io/master"
+          effect: "NoSchedule"
+          operator: "Exists"
+```
 
