@@ -36,7 +36,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = 'Stepan Pelc'
+  homeSubtitle = 'Stepan Pelc<br>cloud infrastructure architect'
   footerCopyright = ' &#183; Sizek &#183; Stratox &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -89,23 +89,9 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     url = "stepan-pelc/"
     weight = 20
 
-  # [[menu.main]]
-  #   name = "about"
-  #   parent = "stepan-pelc"
-  #   url = "contact/"
-  #   weight = 30
-
-  # [[menu.main]]
-  #   name = "contact"
-  #   parent = "stepan-pelc"
-  #   url = "contact/"
-  #   weight = 30
-
-
-
   [[menu.main]]
-    name = "cloud native"
-    url = "cloud-native/"
+    name = "kuberntes"
+    url = "kubernetes/"
     identifier = "work"
     weight = 10
 
@@ -123,20 +109,3 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 
 
-#  [[menu.main]]
-#    name = "life"
-#    identifier = "life"
-#    url = "art/"
-#    weight = 15
-
-# [[menu.main]]
-#     name = "arch"
-#     parent = "life"
-#     url = "art/"
-#     weight = 15
-
-# [[menu.main]]
-#     name = "art"
-#     parent = "life"
-#     url = "art/"
-#     weight = 15
