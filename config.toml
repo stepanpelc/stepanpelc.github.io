@@ -36,8 +36,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = 'Stepan Pelc • life & work'
-  footerCopyright = ' &#183; Stratox Enterprises &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  homeSubtitle = 'Stepan Pelc'
+  footerCopyright = ' &#183; Sizek &#183; Stratox &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -57,13 +57,13 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "email"
     url = "mailto:stepan.pelc@soft-eng.cz"
 
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/stepanpelc"
+#  [[params.social]]
+#    name = "twitter"
+#    url = "https://twitter.com/stepanpelc"
 
-  [[params.social]]
-    name = "medium"
-    url = "https://medium.com/@stepanpelc"
+#  [[params.social]]
+#    name = "medium"
+#    url = "https://medium.com/@stepanpelc"
 
 #  [[params.social]]
 #    name = "instagram"
