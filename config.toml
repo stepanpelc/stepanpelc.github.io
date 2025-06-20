@@ -83,17 +83,17 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 [menu]
 
-  [[menu.main]]
-    name = "me"
-    identifier = "stepan-pelc"
-    url = "stepan-pelc/"
-    weight = 20
+  # [[menu.main]]
+  #   name = "me"
+  #   identifier = "stepan-pelc"
+  #   url = "stepan-pelc/"
+  #   weight = 20
 
-  [[menu.main]]
-    name = "kuberntes"
-    url = "kubernetes/"
-    identifier = "work"
-    weight = 10
+  # [[menu.main]]
+  #   name = "kuberntes"
+  #   url = "kubernetes/"
+  #   identifier = "work"
+  #   weight = 10
 
   # [[menu.main]]
   #   name = "cloud"
