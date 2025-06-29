@@ -8,8 +8,6 @@ toc = true
 
 ### **HomeLab & Self-Hosting Environment**
 
-Self-managed infrastructure designed for high availability, automation, observability, and hands-on experience with production-grade tooling.
-
 ## Core Infrastructure
 
 - Dual-stack (IPv4/IPv6) network built on UniFi hardware
