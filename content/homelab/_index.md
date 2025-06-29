@@ -5,9 +5,6 @@ date = "2019-04-02"
 toc = true
 +++
 
-
-### **HomeLab & Self-Hosting Environment**
-
 ## Core Infrastructure
 
 - Dual-stack (IPv4/IPv6) network built on UniFi hardware
