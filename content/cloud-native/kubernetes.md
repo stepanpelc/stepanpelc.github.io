@@ -22,9 +22,6 @@ kubectl get deployment -n speed-ci-02-app | grep -v NAME | awk '{print $1}' | xa
  for CONTEXT in $(kubectl config view -o jsonpath='{.contexts[*].name}'); do kubectl config use-context $CONTEXT; kubectl get pods -A -o jsonpath='{range .items[*]}{.spec.containers[*].image}{"\n"}' | sed 's/\s\+/\n/g' | sort | uniq; done;
 ```
 
-
-
-
 ## Pod anti-affinity
 
 Pod has to be deployed on all nodes
@@ -60,4 +57,3 @@ kind: Deployment
           effect: "NoSchedule"
           operator: "Exists"
 ```
-

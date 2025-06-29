@@ -83,11 +83,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
 [menu]
 
-  # [[menu.main]]
-  #   name = "me"
-  #   identifier = "stepan-pelc"
-  #   url = "stepan-pelc/"
-  #   weight = 20
+  [[menu.main]]
+    name = "homelab"
+    identifier = "HomeLab"
+    url = "homelab/"
+    weight = 20
 
   # [[menu.main]]
   #   name = "kuberntes"
@@ -106,6 +106,3 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   #   parent = "work"
   #   url = "development/"
     # weight = 11
-
-
-
