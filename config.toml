@@ -35,7 +35,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   themeColor = "#494f5c"
 
   homeSubtitle = 'Stepan Pelc - cloud infrastructure architect'
-  footerCopyright = ' &#183; ID: 72681811 | VAT ID: CZ8201042916 | Vamberská 870, 199 00, Praha 9 - Letňany  <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  footerCopyright = 'ID: 72681811  &#183; VAT ID: CZ8201042916 | Vamberská 870, 199 00, Praha 18 - Letňany | <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -82,8 +82,14 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [menu]
 
   [[menu.main]]
+    name = "contact"
+    identifier = "contact"
+    url = "me/contact"
+    weight = 30
+
+  [[menu.main]]
     name = "homelab"
-    identifier = "HomeLab"
+    identifier = "homelab"
     url = "homelab/"
     weight = 20
 
