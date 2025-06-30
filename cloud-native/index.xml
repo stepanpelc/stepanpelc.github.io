@@ -1,6 +1,102 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>soft-eng.cz</title><link>https://soft-eng.cz/cloud-native/</link><description>Recent content on soft-eng.cz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://soft-eng.cz/cloud-native/index.xml" rel="self" type="application/rss+xml"/><item><title>HomeLab</title><link>https://soft-eng.cz/cloud-native/homelab/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/cloud-native/homelab/</guid><description>HomeLab &amp;amp; Self-Hosting Environment Self-managed infrastructure designed for high availability, automation, observability, and hands-on experience with production-grade tooling.
-Core Infrastructure Dual-stack (IPv4/IPv6) network built on UniFi hardware Domain configured with valid FQDN and internal Step-CA certificate authority supporting ACME Hosted on Proxmox VE, primarily using LXC containers with some VMs for Docker workloads High-availability DNS filtering via Pi-hole Container &amp;amp; Service Management Docker environment orchestrated with Portainer Traefik used as a dynamic reverse proxy; NGINX handles public-facing services Single Sign-On (SSO) managed through Authentik Email &amp;amp; Notification Self-hosted mail server for technical/system accounts (e.</description></item><item><title>Kubernetes</title><link>https://soft-eng.cz/cloud-native/kubernetes/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/cloud-native/kubernetes/</guid><description>Patching commands kubectl get deployment -n speed-ci-02-app | grep -v NAME | awk &amp;#39;{print $1}&amp;#39; | xargs -L1 kubectl patch deployment --patch &amp;#39;{\&amp;#34;spec\&amp;#34;: {\&amp;#34;template\&amp;#34;: {\&amp;#34;spec\&amp;#34;: {\&amp;#34;imagePullSecrets\&amp;#34;: [{\&amp;#34;name\&amp;#34;: \&amp;#34;nexus3\&amp;#34;}]}}}}&amp;#39; -n speed-ci-02-app Get all images from all contexts for CONTEXT in $(kubectl config view -o jsonpath=&amp;#39;{.contexts[*].name}&amp;#39;); do kubectl config use-context $CONTEXT; kubectl get pods -A -o jsonpath=&amp;#39;{range .items[*]}{.spec.containers[*].image}{&amp;#34;\n&amp;#34;}&amp;#39; | sed &amp;#39;s/\s\+/\n/g&amp;#39; | sort | uniq; done; Pod anti-affinity Pod has to be deployed on all nodes</description></item><item><title>Docker</title><link>https://soft-eng.cz/cloud-native/docker/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/cloud-native/docker/</guid><description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description></item><item><title>Signal in LTE networks</title><link>https://soft-eng.cz/cloud-native/signal/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/cloud-native/signal/</guid><description>Basic definitions RSSI - received signal strength indicator
-SINR - signal to interference plus noise ratio
-\[ \mathsf{SINR(x)=\frac{P}{I+N}} \]
-Signal quality RSSI SINR (dB) RSRQ (dB) RSRP (dB) EC/Io (dB) Excellent &amp;gt; -65 &amp;gt; 12.5 &amp;gt; -5 &amp;gt; -84 &amp;gt; -2 Good -65 — -75 10 — 12.5 -6 — -10 -65 — -102 -2 — -5 Fair -75 — -85 7 — 10 -6 — -10 -103 — -111 -5 — -10 Poor &amp;lt; -85 7 -11 &amp;lt; -112 &amp;lt; -10 1 Table source</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>soft-eng.cz</title><link>https://soft-eng.cz/cloud-native/</link><description>Recent content on soft-eng.cz</description><generator>Hugo</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://soft-eng.cz/cloud-native/index.xml" rel="self" type="application/rss+xml"/><item><title>HomeLab</title><link>https://soft-eng.cz/cloud-native/homelab/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/cloud-native/homelab/</guid><description>&lt;h3 id="homelab--self-hosting-environment">&lt;strong>HomeLab &amp;amp; Self-Hosting Environment&lt;/strong>&lt;a href="#homelab--self-hosting-environment" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
+ &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
+ &lt;/svg>&lt;/a>&lt;/h3>
+&lt;p>Self-managed infrastructure designed for high availability, automation, observability, and hands-on experience with production-grade tooling.&lt;/p>
+&lt;h2 id="core-infrastructure">Core Infrastructure&lt;a href="#core-infrastructure" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
+ &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
+ &lt;/svg>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>Dual-stack (IPv4/IPv6) network built on UniFi hardware&lt;/li>
+&lt;li>Domain configured with valid FQDN and internal &lt;strong>Step-CA&lt;/strong> certificate authority supporting ACME&lt;/li>
+&lt;li>Hosted on &lt;strong>Proxmox VE&lt;/strong>, primarily using &lt;strong>LXC containers&lt;/strong> with some VMs for Docker workloads&lt;/li>
+&lt;li>High-availability DNS filtering via &lt;strong>Pi-hole&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="container--service-management">Container &amp;amp; Service Management&lt;a href="#container--service-management" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
+ &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
+ &lt;/svg>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Docker&lt;/strong> environment orchestrated with &lt;strong>Portainer&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Traefik&lt;/strong> used as a dynamic reverse proxy; &lt;strong>NGINX&lt;/strong> handles public-facing services&lt;/li>
+&lt;li>Single Sign-On (SSO) managed through &lt;strong>Authentik&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="email--notification">Email &amp;amp; Notification&lt;a href="#email--notification" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
+ &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
+ &lt;/svg>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>Self-hosted &lt;strong>mail server&lt;/strong> for technical/system accounts (e.g., alerts, automation)&lt;/li>
+&lt;li>&lt;strong>ntfy&lt;/strong> used as a push-notification system for &lt;strong>Uptime Kuma&lt;/strong> alerts and &lt;strong>DroneCI build status updates&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="monitoring--metrics">Monitoring &amp;amp; Metrics&lt;a href="#monitoring--metrics" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
+ &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
+ &lt;/svg>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>LibreNMS&lt;/strong> for SNMP-based network interface monitoring&lt;/li>
+&lt;li>&lt;strong>Grafana&lt;/strong> for dashboards and infrastructure visualizations&lt;/li>
+&lt;li>&lt;strong>InfluxDB&lt;/strong> for time-series metric storage and performance data analysis&lt;/li>
+&lt;/ul>
+&lt;h2 id="automation--cicd">Automation &amp;amp; CI/CD&lt;a href="#automation--cicd" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
+ &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
+ &lt;/svg>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Gitea&lt;/strong> for self-hosted Git repositories&lt;/li>
+&lt;li>&lt;strong>DroneCI&lt;/strong> and &lt;strong>Ansible Semaphore&lt;/strong> for build pipelines and infrastructure automation&lt;/li>
+&lt;/ul>
+&lt;h2 id="applications--data-management">Applications &amp;amp; Data Management&lt;a href="#applications--data-management" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
+ &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
+ &lt;/svg>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>NextCloud&lt;/strong> for document storage and file sync&lt;/li>
+&lt;li>&lt;strong>BookStack&lt;/strong> for internal knowledge base and documentation&lt;/li>
+&lt;li>&lt;strong>NetBox&lt;/strong> for IP address and network infrastructure management (IPAM)&lt;/li>
+&lt;li>&lt;strong>Vaultwarden&lt;/strong> for secure, self-hosted password management&lt;/li>
+&lt;li>&lt;strong>MinIO&lt;/strong> as S3-compatible object storage, primarily used for backups&lt;/li>
+&lt;li>&lt;strong>Matomo&lt;/strong> for self-hosted web analytics&lt;/li>
+&lt;li>&lt;strong>PrivateBin&lt;/strong> for encrypted, ephemeral paste sharing&lt;/li>
+&lt;li>&lt;strong>Syncthing&lt;/strong> for continuous, peer-to-peer file synchronization&lt;/li>
+&lt;/ul>
+&lt;h2 id="home-automation">Home Automation&lt;a href="#home-automation" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
+ &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
+ &lt;/svg>&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Home Assistant&lt;/strong> integrated with &lt;strong>Hue&lt;/strong> ecosystem and custom dashboards for smart home control&lt;/li>
+&lt;/ul></description></item><item><title>Kubernetes</title><link>https://soft-eng.cz/cloud-native/kubernetes/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/cloud-native/kubernetes/</guid><description>&lt;h2 id="patching-commands">Patching commands&lt;a href="#patching-commands" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
+ &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
+ &lt;/svg>&lt;/a>&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">kubectl get deployment -n speed-ci-02-app &lt;span class="p">|&lt;/span> grep -v NAME &lt;span class="p">|&lt;/span> awk &lt;span class="s1">&amp;#39;{print $1}&amp;#39;&lt;/span> &lt;span class="p">|&lt;/span> xargs -L1 kubectl patch deployment --patch &lt;span class="s1">&amp;#39;{\&amp;#34;spec\&amp;#34;: {\&amp;#34;template\&amp;#34;: {\&amp;#34;spec\&amp;#34;: {\&amp;#34;imagePullSecrets\&amp;#34;: [{\&amp;#34;name\&amp;#34;: \&amp;#34;nexus3\&amp;#34;}]}}}}&amp;#39;&lt;/span> -n speed-ci-02-app
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="get-all-images-from-all-contexts">Get all images from all contexts&lt;a href="#get-all-images-from-all-contexts" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
+ &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
+ &lt;/svg>&lt;/a>&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> CONTEXT in &lt;span class="k">$(&lt;/span>kubectl config view -o &lt;span class="nv">jsonpath&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;{.contexts[*].name}&amp;#39;&lt;/span>&lt;span class="k">)&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="k">do&lt;/span> kubectl config use-context &lt;span class="nv">$CONTEXT&lt;/span>&lt;span class="p">;&lt;/span> kubectl get pods -A -o &lt;span class="nv">jsonpath&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;{range .items[*]}{.spec.containers[*].image}{&amp;#34;\n&amp;#34;}&amp;#39;&lt;/span> &lt;span class="p">|&lt;/span> sed &lt;span class="s1">&amp;#39;s/\s\+/\n/g&amp;#39;&lt;/span> &lt;span class="p">|&lt;/span> sort &lt;span class="p">|&lt;/span> uniq&lt;span class="p">;&lt;/span> &lt;span class="k">done&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="pod-anti-affinity">Pod anti-affinity&lt;a href="#pod-anti-affinity" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round">
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
+ &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
+ &lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Pod has to be deployed on all nodes&lt;/p></description></item><item><title>Docker</title><link>https://soft-eng.cz/cloud-native/docker/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/cloud-native/docker/</guid><description>&lt;p>Hugo uses the excellent &lt;a href="https://golang.org/">Go&lt;/a> &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in Go templates.&lt;/p>
+&lt;p>This document is a brief primer on using Go templates. The &lt;a href="https://golang.org/pkg/html/template/">Go docs&lt;/a>
+provide more details.&lt;/p></description></item></channel></rss>
