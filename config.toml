@@ -2,7 +2,7 @@ baseURL = "https://soft-eng.cz"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "soft-eng.cz"
-theme = "hermit"
+theme = "hermit-v2"
 # enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
@@ -25,15 +25,13 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   tag = "tags"
   # Categories are disabled by default.
 
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+[params.dateform]
+  ShortDate = "Jan 2"
+  Full = "Jan 2, 2006"
+  Num = "2006-01-02"
+  NumTime = "2006-01-02 15:04 -0700"
 
-  # Metadata mostly used in document's head
-  # description = ""
-  # images = [""]
+[params]
   themeColor = "#494f5c"
 
   homeSubtitle = 'Stepan Pelc - cloud infrastructure architect'

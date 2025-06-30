@@ -33,6 +33,5 @@ __pycache__/
 .env
 
 # Ignore theme submodules if needed (uncomment if you want to ignore theme code changes)
-# themes/hermit/
-# themes/hermitv2/
+themes/*
 *.lock
