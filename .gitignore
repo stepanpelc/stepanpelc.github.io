@@ -1,0 +1,38 @@
+# Hugo build output
+public/
+resources/
+
+# Node modules (if used for theme development)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Hugo cache
+hugo_stats.json
+
+# Backup files
+*~
+*.bak
+
+# Log files
+*.log
+
+# Python cache (if any scripts)
+__pycache__/
+*.pyc
+
+# Ignore user-specific config
+.env
+
+# Ignore theme submodules if needed (uncomment if you want to ignore theme code changes)
+# themes/hermit/
+# themes/hermitv2/
+*.lock
