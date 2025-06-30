@@ -11,7 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true
+          # submodules: true
+          submodules: recursive
+          fetch-depth: 0  # fetch all history to avoid shallow clone issues
+          clean: true     # ensures repo is cleaned before fetching
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
