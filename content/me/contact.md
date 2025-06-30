@@ -5,9 +5,9 @@ date = "2019-04-02"
 toc = true
 +++
 
-**Stepan Pelc**
+## Stepan Pelc
 
-**address:**
+### address
 
 Vamberská 870
 
@@ -15,10 +15,20 @@ Praha 18 - Letňany
 
 199 00
 
-**mobile:** (+420) 777 341 627
+Czech Republic
 
-**e-mail:** [stepan.pelc@soft-eng.cz](mailto:stepan.pelc@soft-eng.cz)
+### mobile
 
-**ID:** 72681811
+(+420) 777 341 627
 
-**VAT ID:** CZ8201042916
+### e-mail
+
+[stepan.pelc@soft-eng.cz](mailto:stepan.pelc@soft-eng.cz)
+
+### ID
+
+72681811
+
+### VAT ID
+
+CZ8201042916
