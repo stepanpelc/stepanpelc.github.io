@@ -51,7 +51,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
+  [[params.socialLinks]]
     name = "email"
     url = "mailto:stepan.pelc@soft-eng.cz"
 
@@ -71,11 +71,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 #    name = "pinterest"
 #    url = "https://pinterest.com/stepanpelc"
 
-  [[params.social]]
+  [[params.socialLinks]]
     name = "linkedin"
     url = "https://linkedin.com/stepan.pelc"
 
-  [[params.social]]
+  [[params.socialLinks]]
     name = "github"
     url = "https://github.com/stepanpelc"
 
@@ -88,8 +88,14 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     weight = 30
 
   [[menu.main]]
+    name = "tech stack"
+    identifier = "Tech Stack"
+    url = "techstack/"
+    weight = 20
+
+  [[menu.main]]
     name = "homelab"
-    identifier = "homelab"
+    identifier = "Home Lab"
     url = "homelab/"
     weight = 20
 

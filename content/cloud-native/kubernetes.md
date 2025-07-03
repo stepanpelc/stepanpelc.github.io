@@ -43,7 +43,6 @@ Pod has to be deployed on all nodes
 
 Configuration for ignoring master taint
 
-
 ```yaml
 apiVersion: extensions/v1beta1
 kind: Deployment
