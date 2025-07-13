@@ -73,7 +73,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[params.socialLinks]]
     name = "linkedin"
-    url = "https://linkedin.com/stepan.pelc"
+    url = "https://www.linkedin.com/in/stepanpelc/"
 
   [[params.socialLinks]]
     name = "github"
@@ -88,6 +88,12 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     weight = 30
 
   [[menu.main]]
+    name = "cv"
+    identifier = "cv"
+    url = "me/cv"
+    weight = 10
+
+  [[menu.main]]
     name = "tech stack"
     identifier = "Tech Stack"
     url = "techstack/"
@@ -98,21 +104,3 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     identifier = "Home Lab"
     url = "homelab/"
     weight = 20
-
-  # [[menu.main]]
-  #   name = "kuberntes"
-  #   url = "kubernetes/"
-  #   identifier = "work"
-  #   weight = 10
-
-  # [[menu.main]]
-  #   name = "cloud"
-  #   parent = "work"
-  #   url = "cloud-native/"
-  #   weight = 10
-
-  # [[menu.main]]
-  #   name = "dev"
-  #   parent = "work"
-  #   url = "development/"
-    # weight = 11
