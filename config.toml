@@ -82,12 +82,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [menu]
 
   [[menu.main]]
-    name = "contact"
-    identifier = "contact"
-    url = "me/contact"
-    weight = 30
-
-  [[menu.main]]
     name = "cv"
     identifier = "cv"
     url = "me/cv"
@@ -103,4 +97,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "homelab"
     identifier = "Home Lab"
     url = "homelab/"
-    weight = 20
+    weight = 30
+
+  [[menu.main]]
+    name = "contact"
+    identifier = "contact"
+    url = "me/contact"
+    weight = 40
