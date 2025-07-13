@@ -14,11 +14,11 @@ Experienced Cloud Infrastructure Architect and DevOps Engineer with over 20 year
 
 **MXW COMP, s.r.o.** · Contract · Prague, Czechia · Remote
 
-**Jun 2024 – Present**
+**Jun 2024** – **Present**
 
 **Skills:** Apache Kafka, Open Sovereign Cloud, Bash, Kubernetes, Linux, Git
 
-- Providing DevOps support for private cloud services in the telco and insurance sectors
+- Providing DevOps support for private cloud services in the semi-air-gapped regulated Telco and Insurance sectors
 - Designing and maintaining GitOps repository architecture
 - Managing Kafka operations: upgrades, L3 support, and migration to KRaft
 - Collaborating with a distributed English/Slovak-speaking team
@@ -43,10 +43,11 @@ Experienced Cloud Infrastructure Architect and DevOps Engineer with over 20 year
 
 **Stratox Enterprises** · Contract · Prague, Czechia · On-site / Hybrid
 
-**Aug 2017 – Mar 2023**
+**Aug 2017** – **Mar 2023**
 
 **Skills:** Kubernetes, Helm, Ansible, Open Policy Agent, Private Cloud, Linux, Git
 
+- Air-gapped and regulated environment
 - Provided DevOps support for the Speed platform for application developers
 - Delivered core functionality: monitoring, logging, auditing, deployment
 - Offered L3 support and Kubernetes security consulting
@@ -58,7 +59,7 @@ Experienced Cloud Infrastructure Architect and DevOps Engineer with over 20 year
 
 **Unicorn** · Prague, Czechia
 
-**Mar 2016 – Jul 2017**
+**Mar 2016** – **Jul 2017**
 
 **Skills:** Kubernetes, Linux, Bash, Git
 
@@ -70,7 +71,7 @@ Experienced Cloud Infrastructure Architect and DevOps Engineer with over 20 year
 
 **Equa bank a. s.** · Prague, Czechia
 
-**May 2014 – Feb 2016**
+**May 2014** – **Feb 2016**
 
 **Skills:** Configuration Management, Linux, Bash
 
@@ -83,7 +84,7 @@ Experienced Cloud Infrastructure Architect and DevOps Engineer with over 20 year
 
 **GE Money Bank** · Prague, Czech Republic
 
-**Dec 2006 – Feb 2013**
+**Dec 2006** – **Feb 2013**
 
 - Led IT support and services for core system testing environments
 - Managed the development and upgrade of integrated testing pipelines
