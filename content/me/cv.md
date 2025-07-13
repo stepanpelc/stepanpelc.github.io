@@ -1,12 +1,12 @@
 ---
-title: "Štěpán Pelc – Cloud Infrastructure Architect"
+title: "Stepan Pelc – Cloud Infrastructure Architect"
 date: 2025-07-13T00:00:00Z
 draft: false
 ---
 
 ## About Me
 
-Experienced Cloud Infrastructure Architect and DevOps Engineer with over 20 years in IT. I design secure, scalable cloud-native platforms with a strong emphasis on automation, open-source tooling, and developer enablement. Skilled in Kubernetes, operational design and procedures, and mentoring.
+**Cloud Infrastructure Architect** with over 20 years of hands-on experience in enterprise IT operations. I specialize in designing and running secure, scalable **cloud-native platforms**, with a strong emphasis on **private cloud environments**, including **air-gapped** and **self-hosted infrastructures**. My work centers on **infrastructure automation**, **Kubernetes orchestration**, **CI/CD pipelines**, and **developer enablement**, using open-source tools and well-established enterprise practices. I focus on translating real-world operational challenges into resilient, maintainable platforms.
 
 ## Experience
 
@@ -37,6 +37,16 @@ Experienced Cloud Infrastructure Architect and DevOps Engineer with over 20 year
 - Led Terraform refactoring and Ansible automation initiatives
 - Mentored junior engineers and promoted open-source best practices
 
+#### Projects
+
+##### krv - Kubernetes Validator
+
+- **Goal:** Enable automatic validation of Kubernetes objects in a cluster based on their runtime state.
+- **Implementation:** Designed an application that uses JSONPath expressions to validate object fields and updates the test status in the corresponding Custom Resource (CR) based on the result.
+- **Technologies:** Go (Golang).
+- **Scope:** Defined the core concept and provided initial specifications for the development team.
+
+
 ---
 
 ### Cloud Castle Architect
@@ -52,6 +62,22 @@ Experienced Cloud Infrastructure Architect and DevOps Engineer with over 20 year
 - Delivered core functionality: monitoring, logging, auditing, deployment
 - Offered L3 support and Kubernetes security consulting
 - Extended RBAC using Open Policy Agent and executed Ansible operations on clusters
+
+#### Projects
+
+##### Authorization and Validation for Kubernetes Clusters – Open Policy Agent
+
+- **Goal:** Simplify user access management and unify workload deployment rules across Kubernetes clusters.
+- **Implementation:** Designed and developed a set of validation policies enabling user authorization based on assigned groups and artifact validation, with support for exceptions and configurable permissive/blocking modes.
+- **Technologies:** Open Policy Agent (OPA), Rego.
+- **Scope:** Full development and production-ready implementation.
+
+##### System Operator
+
+- **Goal:** Separate the deployment of platform system components (monitoring, logging, audit, etc.) from developer workloads managed via ArgoCD.
+- **Implementation:** Designed and implemented a universal operator that provisions platform components based on cluster-specific configurations using Ansible scripts pulled from a Git repository. Included working examples for common components to support team adoption.
+- **Technologies:** Operator Framework, Ansible.
+- **Scope:** Full development and ongoing support for platform and application teams to integrate their components.
 
 ---
 
@@ -78,6 +104,15 @@ Experienced Cloud Infrastructure Architect and DevOps Engineer with over 20 year
 - Led the technical DevOps team for testing environment support
 - Oversaw DevOps operations and provided technical development support
 
+#### Projects
+
+##### Equinox²
+
+- **Goal:** Provide a streamlined way to manage and track manual deployments and changes across multiple testing environments — a complete rewrite and optimization of the original tool.
+- **Implementation:** Built an internal web-based application to coordinate deployments and improve visibility into environment changes.
+- **Technologies:** Python (Flask), SQLite.
+- **Scope:** Full lifecycle ownership — from analysis and design to implementation.
+
 ---
 
 ### ITP Team Leader – IT Core Systems Manager
@@ -89,6 +124,23 @@ Experienced Cloud Infrastructure Architect and DevOps Engineer with over 20 year
 - Led IT support and services for core system testing environments
 - Managed the development and upgrade of integrated testing pipelines
 - Resolved complex configuration and infrastructure issues
+
+#### Projects
+
+##### Equinox
+
+- **Goal:** Manage and track manual deployments and changes across multiple testing environments.
+- **Implementation:** Developed an internal web-based tool for deployment coordination and visibility.
+- **Technologies:** PHP, Oracle (prototype in PostgreSQL).
+- **Scope:** Full lifecycle — analysis, design, and implementation.
+
+##### E-mail portal
+
+- **Goal:** Unify the format and style of internal information emails, create mailing groups, and optimize message size.
+- **Implementation:** Designed and developed an internal web-based tool to manage email formatting and distribution.
+- **Technologies:** PHP, Microsoft Exchange Server, Oracle.
+- **Scope:** Implemented MIME email formatting. Took on junior developer responsibilities while also mentoring peers.
+
 
 ---
 

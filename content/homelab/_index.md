@@ -1,5 +1,5 @@
 +++
-title = "HomeLab"
+title = "Home Lab & Self-hosted"
 tags = []
 date = "2019-04-02"
 toc = true

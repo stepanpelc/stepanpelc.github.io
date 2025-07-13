@@ -82,25 +82,25 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [menu]
 
   [[menu.main]]
-    name = "cv"
+    name = "Experience"
     identifier = "cv"
     url = "me/cv"
     weight = 10
 
   [[menu.main]]
-    name = "tech stack"
-    identifier = "Tech Stack"
+    name = "Tech Stack"
+    identifier = "techstack"
     url = "techstack/"
     weight = 20
 
   [[menu.main]]
-    name = "homelab"
+    name = "Home Lab & Self-hosted"
     identifier = "Home Lab"
     url = "homelab/"
     weight = 30
 
   [[menu.main]]
-    name = "contact"
+    name = "Contact"
     identifier = "contact"
     url = "me/contact"
     weight = 40
