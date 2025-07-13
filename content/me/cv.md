@@ -37,9 +37,7 @@ draft: false
 - Led Terraform refactoring and Ansible automation initiatives
 - Mentored junior engineers and promoted open-source best practices
 
-#### Projects
-
-##### krv - Kubernetes Validator
+#### Project: krv - Kubernetes Validator
 
 - **Goal:** Enable automatic validation of Kubernetes objects in a cluster based on their runtime state.
 - **Implementation:** Designed an application that uses JSONPath expressions to validate object fields and updates the test status in the corresponding Custom Resource (CR) based on the result.
@@ -63,16 +61,14 @@ draft: false
 - Offered L3 support and Kubernetes security consulting
 - Extended RBAC using Open Policy Agent and executed Ansible operations on clusters
 
-#### Projects
-
-##### Authorization and Validation for Kubernetes Clusters – Open Policy Agent
+#### Project: Authorization and Validation for Kubernetes Clusters – Open Policy Agent
 
 - **Goal:** Simplify user access management and unify workload deployment rules across Kubernetes clusters.
 - **Implementation:** Designed and developed a set of validation policies enabling user authorization based on assigned groups and artifact validation, with support for exceptions and configurable permissive/blocking modes.
 - **Technologies:** Open Policy Agent (OPA), Rego.
 - **Scope:** Full development and production-ready implementation.
 
-##### System Operator
+#### Project: System Operator
 
 - **Goal:** Separate the deployment of platform system components (monitoring, logging, audit, etc.) from developer workloads managed via ArgoCD.
 - **Implementation:** Designed and implemented a universal operator that provisions platform components based on cluster-specific configurations using Ansible scripts pulled from a Git repository. Included working examples for common components to support team adoption.
@@ -104,9 +100,7 @@ draft: false
 - Led the technical DevOps team for testing environment support
 - Oversaw DevOps operations and provided technical development support
 
-#### Projects
-
-##### Equinox²
+#### Project: Equinox²
 
 - **Goal:** Provide a streamlined way to manage and track manual deployments and changes across multiple testing environments — a complete rewrite and optimization of the original tool.
 - **Implementation:** Built an internal web-based application to coordinate deployments and improve visibility into environment changes.
@@ -125,16 +119,14 @@ draft: false
 - Managed the development and upgrade of integrated testing pipelines
 - Resolved complex configuration and infrastructure issues
 
-#### Projects
-
-##### Equinox
+#### Project: Equinox
 
 - **Goal:** Manage and track manual deployments and changes across multiple testing environments.
 - **Implementation:** Developed an internal web-based tool for deployment coordination and visibility.
 - **Technologies:** PHP, Oracle (prototype in PostgreSQL).
 - **Scope:** Full lifecycle — analysis, design, and implementation.
 
-##### E-mail portal
+#### Project: E-mail portal
 
 - **Goal:** Unify the format and style of internal information emails, create mailing groups, and optimize message size.
 - **Implementation:** Designed and developed an internal web-based tool to manage email formatting and distribution.
