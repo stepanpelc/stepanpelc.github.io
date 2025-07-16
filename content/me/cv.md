@@ -79,7 +79,7 @@ draft: false
 
 ### DevOps Solution Architect
 
-**Unicorn** · Prague, Czechia
+**Unicorn** · Prague, Czechia · On-site / Hybrid
 
 **Mar 2016** – **Jul 2017**
 
@@ -91,7 +91,7 @@ draft: false
 
 ### Senior Test Specialist / Testing Environment Administration – Team Leader
 
-**Equa bank a. s.** · Prague, Czechia
+**Equa bank a. s.** · Prague, Czechia · On-site
 
 **May 2014** – **Feb 2016**
 
@@ -111,7 +111,7 @@ draft: false
 
 ### ITP Team Leader – IT Core Systems Manager
 
-**GE Money Bank** · Prague, Czech Republic
+**GE Money Bank** · Prague, Czech Republic · On-site
 
 **Dec 2006** – **Feb 2013**
 
@@ -138,7 +138,7 @@ draft: false
 
 ### Tester / QA Manager
 
-**Cleverbee s.r.o.**
+**Cleverbee s.r.o.** · Prague, Czech Republic · On-site
 
 **Jun 2004** – **Nov 2006**
 
