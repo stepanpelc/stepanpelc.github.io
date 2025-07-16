@@ -7,28 +7,12 @@ toc = true
 
 ## Stepan Pelc
 
-### address
+**address**: Vamberská 870, Praha 18 - Letňany, 199 00, Czech Republic
 
-Vamberská 870
+**mobile**: (+420) 777 341 627
 
-Praha 18 - Letňany
+**e-mail**: [stepan.pelc@soft-eng.cz](mailto:stepan.pelc@soft-eng.cz)
 
-199 00
+**ID**: 72681811
 
-Czech Republic
-
-### mobile
-
-(+420) 777 341 627
-
-### e-mail
-
-[stepan.pelc@soft-eng.cz](mailto:stepan.pelc@soft-eng.cz)
-
-### ID
-
-72681811
-
-### VAT ID
-
-CZ8201042916
+**VAT ID**: CZ8201042916
