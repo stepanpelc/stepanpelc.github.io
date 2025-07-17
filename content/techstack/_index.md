@@ -43,6 +43,23 @@ This document outlines the technologies and tools I have worked with across vari
 
 ---
 
+## Cloud Platforms
+
+**Open Sovereign Cloud** ⦁ **Microsoft Azure** ⦁ Amazon Web Services ⦁ Google Cloud
+
+---
+
+### Open Sovereign Cloud
+
+- Held deployment and integration support for Lab environment
+- Provided daily support for applications on OSC platform for 1.5 year
+
+### Microsoft Azure
+
+- Terraform PoC for monitoring deployment
+
+---
+
 ## Application Definition & Image Build
 
 **Helm** ⦁ **Operator Framework** ⦁ **Podman** ⦁ Packer ⦁ Backstage
@@ -131,7 +148,7 @@ This document outlines the technologies and tools I have worked with across vari
 
 ## Scheduling & Orchestration
 
-**⦁ Kubernetes** ⦁ **RKE/RKE2** ⦁ **Open Sovereign Cloud** ⦁ **Rancher** ⦁ **Proxmox** ⦁ **kind** ⦁ k3s ⦁ k0s
+**⦁ Kubernetes** ⦁ **RKE/RKE2** ⦁ **Rancher** ⦁ **Proxmox** ⦁ **kind** ⦁ k3s ⦁ k0s
 
 ---
 
@@ -155,11 +172,6 @@ This document outlines the technologies and tools I have worked with across vari
 
 - Made PoC for gov organization
 - Designed of air-gaped deployments / applications store
-
-### Open Sovereign Cloud
-
-- Held deployment and integration support for Lab environment
-- Provided daily support for applications on OSC platform for 1.5 year
 
 ### Proxmox
 
@@ -373,11 +385,11 @@ This document outlines the technologies and tools I have worked with across vari
 
 - Created custom dashboards and alerts based on Prometheus metrics
 
-### ElasticSearch
+### OpenSearch
 
 - Prepared integration into the environment, solved certificates rotation
 
-### OpenSearch
+### ElasticSearch
 
 - Supported migration into Kubernetes environment
 - Helped with ReadonlyREST integration

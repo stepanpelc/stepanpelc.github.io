@@ -5,6 +5,8 @@ date = "2019-04-02"
 toc = true
 +++
 
+{{< figure src="images/qr-code.png" height="300" alt="qr-code.png" class="right" >}}
+
 ## Stepan Pelc
 
 **address**: Vamberská 870, Praha 18 - Letňany, 199 00, Czech Republic
