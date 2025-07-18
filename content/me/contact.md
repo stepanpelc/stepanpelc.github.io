@@ -17,6 +17,6 @@ toc = true
 
 **e-mail**: [stepan.pelc@soft-eng.cz](mailto:stepan.pelc@soft-eng.cz)
 
-**ID**: 72681811
+**Business ID**: 72681811
 
 **VAT ID**: CZ8201042916
