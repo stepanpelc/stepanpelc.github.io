@@ -15,13 +15,13 @@ This document outlines the technologies and tools I have worked with across vari
 
 ### Linux
 
-- Using on daily basis on servers (Ubuntu, SuSE) and workstations (Fedora)
+- Using on daily basis on servers (Ubuntu, Debian, SuSE) and workstations (Fedora)
 - Experimenting with new generation Rust based tools
 
 ### Mac OS
 
 - Used before migrating to Linux environment
-- Integrated Apple ecosystem with open-source tools
+- Integrated Apple ecosystem with open-source Linux tools
 
 ---
 
@@ -45,7 +45,7 @@ This document outlines the technologies and tools I have worked with across vari
 
 ## Cloud Platforms
 
-**Open Sovereign Cloud** ⦁ **Microsoft Azure** ⦁ Amazon Web Services ⦁ Google Cloud
+**Open Sovereign Cloud** ⦁ **Microsoft Azure** ⦁ **Amazon Web Services** ⦁ Google Cloud
 
 ---
 
@@ -57,6 +57,10 @@ This document outlines the technologies and tools I have worked with across vari
 ### Microsoft Azure
 
 - Terraform PoC for monitoring deployment
+
+### Amazon Web Services
+
+- Kubenetes PoC environments
 
 ---
 
