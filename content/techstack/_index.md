@@ -334,7 +334,8 @@ This document outlines the technologies and tools I have worked with across vari
 
 ### step-ca
 
-- Implemented CA
+- Implemented CA for private home-lab (ssl-only endpoints)
+- Integrated with cert-manger for internal Kubernetes endpoints
 
 ---
 
