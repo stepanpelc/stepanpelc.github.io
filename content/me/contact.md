@@ -11,7 +11,7 @@ toc = true
 
 *[ˈʃcɛpaːn ˈpɛlts]*
 
-**address**: Vamberská 870, Praha 18 - Letňany, 199 00, Czech Republic
+**address**: Vamberská 870, Praha 18 - Letňany, 199&nbsp;00, Czech Republic
 
 **mobile**: (+420) 777 341 627
 
