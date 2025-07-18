@@ -7,7 +7,9 @@ toc = true
 
 {{< figure src="images/qr-code.png" height="300" alt="qr-code.png" class="right" >}}
 
-## Stepan Pelc
+## Štěpán Pelc
+
+*[ˈʃcɛpaːn ˈpɛlts]*
 
 **address**: Vamberská 870, Praha 18 - Letňany, 199 00, Czech Republic
 
