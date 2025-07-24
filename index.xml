@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>soft-eng.cz</title><link>https://soft-eng.cz/</link><description>Recent content on soft-eng.cz</description><generator>Hugo</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://soft-eng.cz/index.xml" rel="self" type="application/rss+xml"/><item><title>Stepan Pelc – Cloud Infrastructure Architect</title><link>https://soft-eng.cz/me/cv/</link><pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/me/cv/</guid><description>&lt;h2 id="about-me">About Me&lt;a href="#about-me" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>soft-eng.cz</title><link>https://soft-eng.cz/</link><description>Recent content on soft-eng.cz</description><generator>Hugo</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 24 Jul 2025 10:33:03 +0200</lastBuildDate><atom:link href="https://soft-eng.cz/index.xml" rel="self" type="application/rss+xml"/><item><title>Stepan Pelc – Cloud Infrastructure Architect</title><link>https://soft-eng.cz/me/cv/</link><pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/me/cv/</guid><description>&lt;h2 id="about-me">About Me&lt;a href="#about-me" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
  stroke-linecap="round" stroke-linejoin="round">
  &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
  &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
@@ -18,84 +18,7 @@
 &lt;p>&lt;strong>mobile&lt;/strong>: (+420) 777 341 627&lt;/p>
 &lt;p>&lt;strong>e-mail&lt;/strong>: &lt;a href="mailto:stepan.pelc@soft-eng.cz">stepan.pelc@soft-eng.cz&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Business ID&lt;/strong>: 72681811&lt;/p>
-&lt;p>&lt;strong>VAT ID&lt;/strong>: CZ8201042916&lt;/p></description></item><item><title>HomeLab</title><link>https://soft-eng.cz/cloud-native/homelab/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/cloud-native/homelab/</guid><description>&lt;h3 id="homelab--self-hosting-environment">&lt;strong>HomeLab &amp;amp; Self-Hosting Environment&lt;/strong>&lt;a href="#homelab--self-hosting-environment" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h3>
-&lt;p>Self-managed infrastructure designed for high availability, automation, observability, and hands-on experience with production-grade tooling.&lt;/p>
-&lt;h2 id="core-infrastructure">Core Infrastructure&lt;a href="#core-infrastructure" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>Dual-stack (IPv4/IPv6) network built on UniFi hardware&lt;/li>
-&lt;li>Domain configured with valid FQDN and internal &lt;strong>Step-CA&lt;/strong> certificate authority supporting ACME&lt;/li>
-&lt;li>Hosted on &lt;strong>Proxmox VE&lt;/strong>, primarily using &lt;strong>LXC containers&lt;/strong> with some VMs for Docker workloads&lt;/li>
-&lt;li>High-availability DNS filtering via &lt;strong>Pi-hole&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;h2 id="container--service-management">Container &amp;amp; Service Management&lt;a href="#container--service-management" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Docker&lt;/strong> environment orchestrated with &lt;strong>Portainer&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Traefik&lt;/strong> used as a dynamic reverse proxy; &lt;strong>NGINX&lt;/strong> handles public-facing services&lt;/li>
-&lt;li>Single Sign-On (SSO) managed through &lt;strong>Authentik&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;h2 id="email--notification">Email &amp;amp; Notification&lt;a href="#email--notification" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>Self-hosted &lt;strong>mail server&lt;/strong> for technical/system accounts (e.g., alerts, automation)&lt;/li>
-&lt;li>&lt;strong>ntfy&lt;/strong> used as a push-notification system for &lt;strong>Uptime Kuma&lt;/strong> alerts and &lt;strong>DroneCI build status updates&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;h2 id="monitoring--metrics">Monitoring &amp;amp; Metrics&lt;a href="#monitoring--metrics" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>LibreNMS&lt;/strong> for SNMP-based network interface monitoring&lt;/li>
-&lt;li>&lt;strong>Grafana&lt;/strong> for dashboards and infrastructure visualizations&lt;/li>
-&lt;li>&lt;strong>InfluxDB&lt;/strong> for time-series metric storage and performance data analysis&lt;/li>
-&lt;/ul>
-&lt;h2 id="automation--cicd">Automation &amp;amp; CI/CD&lt;a href="#automation--cicd" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Gitea&lt;/strong> for self-hosted Git repositories&lt;/li>
-&lt;li>&lt;strong>DroneCI&lt;/strong> and &lt;strong>Ansible Semaphore&lt;/strong> for build pipelines and infrastructure automation&lt;/li>
-&lt;/ul>
-&lt;h2 id="applications--data-management">Applications &amp;amp; Data Management&lt;a href="#applications--data-management" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>NextCloud&lt;/strong> for document storage and file sync&lt;/li>
-&lt;li>&lt;strong>BookStack&lt;/strong> for internal knowledge base and documentation&lt;/li>
-&lt;li>&lt;strong>NetBox&lt;/strong> for IP address and network infrastructure management (IPAM)&lt;/li>
-&lt;li>&lt;strong>Vaultwarden&lt;/strong> for secure, self-hosted password management&lt;/li>
-&lt;li>&lt;strong>MinIO&lt;/strong> as S3-compatible object storage, primarily used for backups&lt;/li>
-&lt;li>&lt;strong>Matomo&lt;/strong> for self-hosted web analytics&lt;/li>
-&lt;li>&lt;strong>PrivateBin&lt;/strong> for encrypted, ephemeral paste sharing&lt;/li>
-&lt;li>&lt;strong>Syncthing&lt;/strong> for continuous, peer-to-peer file synchronization&lt;/li>
-&lt;/ul>
-&lt;h2 id="home-automation">Home Automation&lt;a href="#home-automation" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Home Assistant&lt;/strong> integrated with &lt;strong>Hue&lt;/strong> ecosystem and custom dashboards for smart home control&lt;/li>
-&lt;/ul></description></item><item><title>Kubernetes</title><link>https://soft-eng.cz/cloud-native/kubernetes/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/cloud-native/kubernetes/</guid><description>&lt;h2 id="patching-commands">Patching commands&lt;a href="#patching-commands" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+&lt;p>&lt;strong>VAT ID&lt;/strong>: CZ8201042916&lt;/p></description></item><item><title>Kubernetes</title><link>https://soft-eng.cz/cloud-native/kubernetes/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/cloud-native/kubernetes/</guid><description>&lt;h2 id="patching-commands">Patching commands&lt;a href="#patching-commands" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
  stroke-linecap="round" stroke-linejoin="round">
  &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
  &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
@@ -112,21 +35,7 @@
  &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
  &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
  &lt;/svg>&lt;/a>&lt;/h2>
-&lt;p>Pod has to be deployed on all nodes&lt;/p></description></item><item><title>Pandas</title><link>https://soft-eng.cz/development/pandas/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/development/pandas/</guid><description/></item><item><title>Python basics</title><link>https://soft-eng.cz/development/python/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/development/python/</guid><description>&lt;p>Hugo uses the excellent &lt;a href="https://golang.org/">Go&lt;/a> &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in Go templates.&lt;/p>
-&lt;p>This document is a brief primer on using Go templates. The &lt;a href="https://golang.org/pkg/html/template/">Go docs&lt;/a>
-provide more details.&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>https://soft-eng.cz/posts/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/posts/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent &lt;a href="https://golang.org/">Go&lt;/a> &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in Go templates.&lt;/p>
-&lt;p>This document is a brief primer on using Go templates. The &lt;a href="https://golang.org/pkg/html/template/">Go docs&lt;/a>
-provide more details.&lt;/p></description></item><item><title>Docker</title><link>https://soft-eng.cz/cloud-native/docker/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/cloud-native/docker/</guid><description>&lt;p>Hugo uses the excellent &lt;a href="https://golang.org/">Go&lt;/a> &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
+&lt;p>Pod has to be deployed on all nodes&lt;/p></description></item><item><title>(Hu)go Template Primer</title><link>https://soft-eng.cz/posts/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://soft-eng.cz/posts/goisforlovers/</guid><description>&lt;p>Hugo uses the excellent &lt;a href="https://golang.org/">Go&lt;/a> &lt;a href="https://golang.org/pkg/html/template/">html/template&lt;/a> library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
