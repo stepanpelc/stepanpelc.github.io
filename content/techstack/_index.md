@@ -3,6 +3,8 @@ title = "Tech Stack"
 tags = []
 date = "2019-04-02"
 toc = true
+ShowLastmod = true
+
 +++
 
 This document outlines the technologies and tools I have worked with across various domains such as Kubernetes orchestration, CI/CD, networking, observability, and infrastructure automation. My focus has been primarily on **private cloud environments**, including not only operating within them but also **designing and building** air-gapped and self-hosted infrastructures, rather than public cloud platforms. The **bolded items** represent tools and platforms I have hands-on experience with, often in production environments or in-depth projects. The remaining tools, while included, reflect technologies I’ve explored to a limited extent—used in small-scale setups or evaluated during research.

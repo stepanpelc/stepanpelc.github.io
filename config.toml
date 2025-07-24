@@ -3,7 +3,8 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "soft-eng.cz"
 theme = "hermit-v2"
-# enableGitInfo = true
+enableGitInfo = true
+enableRobotsTXT = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 # hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
@@ -39,11 +40,12 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = "https://github.com/username/repository/commit/"
-
+  gitUrl = "https://github.com/stepanpelc/stepanpelc.github.io/commit/"
+  readTime = true
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = true  # Set "text-align: justify" to `.content`.
 
+  code_copy_button = true
   relatedPosts = true  # Add a related content section to all single posts page
 
   # Add custom css

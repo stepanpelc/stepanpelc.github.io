@@ -2,6 +2,7 @@
 title: "Stepan Pelc – Cloud Infrastructure Architect"
 date: 2025-07-13T00:00:00Z
 draft: false
+toc: true
 ---
 
 ## About Me
