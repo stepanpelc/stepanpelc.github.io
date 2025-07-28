@@ -5,7 +5,7 @@ date = "2019-04-02"
 toc = true
 +++
 
-{{< figure src="images/qr-code.png" height="300" alt="qr-code.png" class="right" >}}
+{{< figure src="images/qr-code.png" height="370" alt="qr-code.png" class="right" >}}
 
 ## Štěpán Pelc
 
@@ -20,3 +20,7 @@ toc = true
 **Business ID**: 72681811
 
 **VAT ID**: CZ8201042916
+
+**Bank Account (CZK)**: 78-5208950227/0100 / **IBAN**: CZ4601000000785208950227 / **BIC/SWIFT**: KOMBCZPP
+
+**Bank Account (EUR)**: 131-2759980277/0100 / **IBAN**: CZ5201000001312759980277 / **BIC/SWIFT**: KOMBCZPP
