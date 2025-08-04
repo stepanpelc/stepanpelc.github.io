@@ -1,7 +1,7 @@
 +++
-title = "Kuberntes v.1.0"
+title = "Kubernetes v1.0"
 tags = []
-date = "2019-04-02"
+date = "2015-07-21"
 toc = true
 +++
 ---
@@ -185,6 +185,3 @@ These were **not available yet** in v1.0:
 
 There were **no deprecations** in v1.0, since it was the initial stable release. Features like `ReplicationController` were **superseded** in later versions, but remained for backward compatibility for several releases.
 
----
-
-Let me know if you'd like the same format for **v1.1**, or prefer grouped summaries over several early versions.
