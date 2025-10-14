@@ -11,13 +11,28 @@ toc: true
 
 ## Experience
 
+### DevOps Engineer / Kubernetes expert
+
+**Avenga, s.r.o.** · Contract · Prague, Czechia · Remote
+
+**Aug 2025** – **Present**
+
+**Skills:** Microsoft Azure, Kubernetes, ArgoCD, Linux, Git
+
+- Providing DevOps support for regulated cloud-based environment with integration to on-prem systems
+- Debugging and resolving issues on Spring Boot based Java applications
+- Building and deploying applications for internal PoC testing (multi-staged docker build)
+- On demand course - Cilium advanced networking with multi-cluster mesh showcase
+
+---
+
 ### Cloud Native Architect / DevOps Engineer
 
 **MXW COMP, s.r.o.** · Contract · Prague, Czechia · Remote
 
-**Jun 2024** – **Present**
+**Jun 2024** – **Jul 2025**
 
-**Skills:** Apache Kafka, Open Sovereign Cloud, Bash, Kubernetes, Linux, Git
+**Skills:** Apache Kafka, Open Sovereign Cloud, Bash, Kubernetes, Linux, Git, Markdown
 
 - Providing DevOps support for private cloud services in the semi-air-gapped regulated Telco and Insurance sectors
 - Designing and maintaining GitOps repository architecture
@@ -32,7 +47,7 @@ toc: true
 
 **Apr 2023** – **Jul 2024**
 
-**Skills:** Terraform, Ansible, Rancher, Kubernetes, Open Sovereign Cloud, Bash, Open Policy Agent, Linux, Git
+**Skills:** Terraform, Ansible, Rancher, Kubernetes, Open Sovereign Cloud, Bash, Open Policy Agent, Linux, Git, GitHub Actions
 
 - Designed cloud-native architectures using Rancher and RKE(2)
 - Led Terraform refactoring and Ansible automation initiatives
@@ -45,7 +60,6 @@ toc: true
 - **Technologies:** Go (Golang).
 - **Scope:** Defined the core concept and provided initial specifications for the development team.
 
-
 ---
 
 ### Cloud Castle Architect
@@ -54,12 +68,12 @@ toc: true
 
 **Aug 2017** – **Mar 2023**
 
-**Skills:** Kubernetes, Helm, Ansible, Open Policy Agent, Private Cloud, Linux, Git
+**Skills:** Kubernetes, Docker, Podman, CRI-O, Helm, JenkinsX, Ansible, Open Policy Agent, Private Cloud, Linux, Git, CoreDNS
 
 - Air-gapped and regulated environment
 - Provided DevOps support for the Speed platform for application developers
 - Delivered core functionality: monitoring, logging, auditing, deployment
-- Offered L3 support and Kubernetes security consulting
+- Offered L3 support and Kubernetes security consulting and hardening
 - Extended RBAC using Open Policy Agent and executed Ansible operations on clusters
 
 #### Project: Authorization and Validation for Kubernetes Clusters – Open Policy Agent
@@ -134,7 +148,6 @@ toc: true
 - **Technologies:** PHP, Microsoft Exchange Server, Oracle.
 - **Scope:** Implemented MIME email formatting. Took on junior developer responsibilities while also mentoring peers.
 
-
 ---
 
 ### Tester / QA Manager
@@ -150,16 +163,16 @@ toc: true
 
 ## Skills
 
-- **Cloud Platforms:** AWS, OpenStack, Sovereign Cloud
+- **Cloud Platforms:** AWS, OpenStack, Sovereign Cloud, Azure
 - **DevOps Tools:** Terraform, Ansible, Helm, GitOps
-- **Containerization:** Kubernetes, Docker, Rancher, RKE
+- **Containerization:** Kubernetes, Docker, Podman, CRI-O, Rancher, RKE(2)
 - **Languages & Scripting:** Bash, Python
+- **Linux:** Ubuntu, Fedora, CoreOS, Debian
 - **Messaging & Data:** Apache Kafka
 - **CI/CD:** GitHub Actions, GitLab CI, Jenkins
 - **Monitoring:** Prometheus, Grafana, Loki
 - **Other:** Linux, Git, Open Policy Agent, Configuration Management
-
-More info at [tech stack](/techstack) section
+- **Release and lifecycle management:** - Blue/Green & Canary deployments, Rolling updates, Tech lifecycle planning
 
 ## Education
 
